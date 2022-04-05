@@ -1,0 +1,6 @@
+.catalog {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, 350px);
+    // grid-template-rows: repeat(2, 100px);
+}
