@@ -1,8 +1,9 @@
 .catalog__example {
+    max-width: 1110px;
+    margin: 0px auto 80px;
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(auto-fit, 350px);
-    // grid-template-rows: repeat(2, 100px);
 }
 .catalog__title{
     line-height: 44.2px;
@@ -14,18 +15,16 @@
     font-size: 34px;
     color: #094882;
 }
-.catalog__example{
-    max-width: 1110px;
-}
 
 .catalog__example .card{
-    width: 350px;
-    height: 409px;
     background: #F2F2F2;
     border-radius: 6px;
-    border:1px solid red;
+    // border:1px solid red;
 }
-
+.card__picture img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
 .card__text{
     padding: 20px;
 }
@@ -48,12 +47,5 @@
 }
 .card .but-order{
     margin-top: 15px;
-    background: #FFE70D;
-    border-radius: 6px;
-    width: 310px;
-    height: 48px;
-    font-weight: 600;
-    font-size: 16px;
-    border: none;
-    text-align: center;
+    @include button_order;
 }
