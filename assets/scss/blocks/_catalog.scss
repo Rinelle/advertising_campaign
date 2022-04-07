@@ -1,6 +1,9 @@
+.catalog{
+    margin-bottom: 80px;
+}
 .catalog__example {
-    max-width: 1110px;
-    margin: 0px auto 80px;
+    justify-content: center;
+    @include container;
     display: grid;
     grid-gap: 30px;
     grid-template-columns: repeat(auto-fit, 350px);
@@ -13,13 +16,12 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size: 34px;
-    color: #094882;
+    color: $main-color;
 }
 
 .catalog__example .card{
-    background: #F2F2F2;
+    background: $gray-pale;
     border-radius: 6px;
-    // border:1px solid red;
 }
 .card__picture img {
     border-top-left-radius: 6px;
@@ -36,16 +38,35 @@
     letter-spacing: 0.1em;
 }
 .card__name{
-    color: #000000;
+    color: $dark-color;
     font-weight: 700;
     font-size: 18px;
     line-height: 245%;
 }
 .card__price{
     font-weight: 600;
-    font-size: 16px;
 }
 .card .but-order{
     margin-top: 15px;
     @include button_order;
+}
+
+@media (min-width: $mobile-large) and (max-width: $tablet) {
+    .catalog__example{
+        justify-content: center;
+    }
+}
+@media (min-width: $mobile) and (max-width: $mobile-large)  {
+    .catalog__example{
+        justify-content: center;
+    }
+}
+@media (max-width: $mobile-small)  {
+    .catalog__example{
+        justify-content: center;
+    }
+    .catalog__title{
+        font-size: 34px;
+        width: 340px;
+    }
 }
