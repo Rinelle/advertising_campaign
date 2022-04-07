@@ -51,20 +51,7 @@
     @include button_order;
 }
 
-@media (min-width: $mobile-large) and (max-width: $tablet) {
-    .catalog__example{
-        justify-content: center;
-    }
-}
-@media (min-width: $mobile) and (max-width: $mobile-large)  {
-    .catalog__example{
-        justify-content: center;
-    }
-}
 @media (max-width: $mobile-small)  {
-    .catalog__example{
-        justify-content: center;
-    }
     .catalog__title{
         font-size: 34px;
         width: 340px;
