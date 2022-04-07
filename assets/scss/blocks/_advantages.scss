@@ -1,0 +1,47 @@
+.advantages {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 80px 0;
+    text-align: center;
+
+    h2 {
+        @include h2;
+        color: $main-color;
+        max-width: 293px;
+        margin: 0 auto 50px;
+    }
+    .item-subtitle {
+        font-size: 18px;
+        // line-height: 25.2px;
+    }
+    &-content {
+        display: flex;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card_advantages {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+    
+    /* On mouse-over, add a deeper shadow */
+    .card_advantages:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+    /* Add some padding inside the card container */
+    .container {
+        padding: 2px 16px;
+    }
+    .card_advantages {
+        width: 340px;
+        height: 324px;
+    }
+    .card_advantages:not(last-child) {
+        margin-right: 30px;
+    }
+}

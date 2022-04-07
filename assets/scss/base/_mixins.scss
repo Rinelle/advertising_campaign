@@ -1,0 +1,22 @@
+@mixin h2 {
+    font-weight: 700;
+    font-size: 34px;
+    text-transform: uppercase;
+    line-height: 130%;
+
+    @media (max-width: $mobile-large) {
+        font-size: 28px;
+    }
+}
+
+@mixin smallUppercaseTitle {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+@mixin container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
