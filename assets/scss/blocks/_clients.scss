@@ -28,3 +28,37 @@
     align-items: flex-end;
     margin-top: 40px;
 }
+
+.our-announcement{
+    background: linear-gradient(100.33deg, rgba(9, 72, 130, 0.95) 2.05%, rgba(230, 29, 119, 0.87) 97.47%);
+    border-radius: 6px;
+    height: 411px;
+    margin-bottom: 36px;
+}
+.our-announcement__text{
+    display: grid;
+    grid-template-columns: 680px;
+    grid-template-rows: 21px 132px 32px 36px;
+    row-gap: 30px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+.our-announcement__text_write, 
+.our-announcement__text_for {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.our-announcement__text_run{
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    line-height: 130%;
+}
+.our-announcement__text_get {
+    font-weight: 700;
+    font-size: 24px;
+}
