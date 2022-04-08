@@ -31,3 +31,8 @@
     border: none;
     text-align: center;
 }
+
+@mixin button_order_hover {
+    background: #FFFFFF;;
+    color: $main-color;
+}

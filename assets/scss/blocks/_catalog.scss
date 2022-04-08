@@ -9,13 +9,10 @@
     grid-template-columns: repeat(auto-fit, 350px);
 }
 .catalog__title{
-    line-height: 44.2px;
+    @include h2;
     width: 500px;
     margin: 80px auto 50px;
     text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 34px;
     color: $main-color;
 }
 
@@ -49,6 +46,9 @@
 .card .but-order{
     margin-top: 15px;
     @include button_order;
+}
+.card .but-order:hover{
+    @include button_order_hover;
 }
 
 @media (max-width: $mobile-small)  {
