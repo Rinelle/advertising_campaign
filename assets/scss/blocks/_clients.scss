@@ -1,0 +1,30 @@
+.trust{
+    @include container;
+}
+.trust .our-clients{
+    max-width: 936px;
+    text-align: center;
+    margin: 80px auto;
+}
+.our-clients__text1 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $main-color;
+}
+
+.our-clients__text2{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 180%;
+    text-transform: uppercase;
+    color: $main-color;
+}
+.our-clients__logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 40px;
+}
