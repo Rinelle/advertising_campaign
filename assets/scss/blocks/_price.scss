@@ -1,0 +1,36 @@
+.price-container{
+    background: $main-color;
+    height: 883px;
+}
+.price-info{
+    max-width: 538px;
+    text-align: center;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.price-info h2{
+    @include h2;
+    color: #FFE70D;
+    margin-bottom: 30px;
+}
+.price-info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+.price-blocks{
+    display: grid;
+    grid-template-columns: repeat(3, 348px);
+    gap:30px;
+    justify-content: center;
+    margin-top: 42px;
+}
+.price-blocks__light-letters,
+.price-blocks__neon,
+.price-blocks__plastic{
+    background: #FFFFFF;
+    height: 491px;
+}
