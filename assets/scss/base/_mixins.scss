@@ -1,3 +1,7 @@
+@mixin container {
+    max-width: 1110px;
+    margin: 0 auto;
+} 
 @mixin h2 {
     font-weight: 700;
     font-size: 34px;
@@ -16,11 +20,6 @@
     letter-spacing: 0.1em;
 }
 
-@mixin container {
-    max-width: 1110px;
-    margin: 0 auto;
-   }
-   
 @mixin button_order {
     background: #FFE70D;
     border-radius: 6px;
