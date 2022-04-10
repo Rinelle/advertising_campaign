@@ -50,17 +50,16 @@
     color: $main-color;
 }
 
-.callback-section__text1 {
+.callback-section__title {
+    @include h2; 
     color: #FFE70D;
     text-align: center;
-    font-size: 34px;
-    font-weight: 600;
     max-width: 657px;
     margin-top: 84px;
 
 }
 
-.callback-section__text2 {
+.callback-section__subtitle {
     color: #FFFFFF;
     text-align: center;
     font-size: 16px;
@@ -69,7 +68,7 @@
     font-weight: 400;
 }
 
-.callback-section__text3 {
+.callback-section__agreement {
     color: #737373;
     text-align: start;
     font-size: 12px;
@@ -81,7 +80,7 @@
 @media (max-width: $mobile) {
 
 .callback-section__form {
-    max-width: 250px;
+    max-width: 100%;
     padding: 25px;
     padding-bottom: 20px;
     margin-bottom: 40px;
@@ -89,38 +88,38 @@
 
 .callback-section__form-item {
     margin: 7px;
-    width: 187px;
-    height: 18px;
+    max-width: 316px;
+    height: 24px;
     padding-left: 7px;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 400;
 }
 
 
 .callback-section__btn {
-    width: 200px;
-    height: 24px;
-    font-size: 10px;
+    max-width: 329px;
+    height: 30px;
+    font-size: 20px;
     font-weight: 600;
 }
 
-.callback-section__text1 {    
+.callback-section__title {    
     font-size: 17px;
     font-weight: 600;
     max-width: 329px;
     margin-top: 42px;
 }
 
-.callback-section__text2 {    
-    font-size: 10px;
+.callback-section__subtitle {    
+    font-size: 12px;
     padding-top: 15px;
     padding-bottom: 20px;
     font-weight: 400;
 }
 
-.callback-section__text3 {   
-    font-size: 8px;
-    max-width: 198px;
+.callback-section__agreement {   
+    font-size: 12px;
+    max-width: 80%;
     padding-top: 20px;
     font-weight: 400;
 }
