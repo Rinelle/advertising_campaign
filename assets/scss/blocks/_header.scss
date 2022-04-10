@@ -1,5 +1,6 @@
 .header {
     max-width: 1109px;
+    max-height: 68px;
     margin: 0 auto;
     padding: 20px 0;
 
@@ -17,8 +18,19 @@
     align-items: center;
     justify-content: center;
 
+    a { 
+        text-decoration: none; /* Отменяем подчеркивание у ссылки */
+        color: $main-color;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+    } 
+
 }
 .header-logo {
+    max-width: 323px;
+    max-height: 68px;
+    
     color: $main-color;
     font-weight: 700;
     font-size: 46px;
@@ -66,5 +78,17 @@
         display: flex;
         justify-content: center;
         gap: 82px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
     }
+    &-link { 
+        text-decoration: none; /* Отменяем подчеркивание у ссылки */
+        color: white;
+
+        &__contacts {
+            text-decoration: none;
+            color: $yellow-color;
+        }
+       } 
 }
