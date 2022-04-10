@@ -34,3 +34,57 @@
     background: #FFFFFF;
     height: 491px;
 }
+.price-blocks .but-order{
+    margin-top: 15px;
+    @include button_order;
+}
+.price-blocks .but-order:hover{
+    @include button_order_hover;
+}
+.price-blocks__light-letters{
+    display: grid;
+    align-content: space-between;
+    text-align: center;
+}
+.price-blocks__light-letters_description {
+     margin-top: 40px;
+     margin-left: 30px;
+     margin-right: 30px;
+}
+
+.price-blocks__light-letters_description .title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #4D4D4D;
+    }
+.price-blocks__light-letters_description hr{
+    margin-top:15px;
+    margin-bottom:15px;
+    color:#CECECE;
+}
+
+.price-blocks__light-letters_description .price{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: $main-color;
+}
+.price-blocks__light-letters_description .price-units{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $main-color;
+}
+.price-blocks__light-letters_description .advantage{
+    @include smallGrayText;
+}
+.price-blocks__light-letters_description .design-term{
+    @include smallGrayText;
+}
+.price-blocks__light-letters_description .lead-time{
+    @include smallGrayText;
+}
+.price-blocks__light-letters_but-order{
+    margin-bottom: 38px;
+}
