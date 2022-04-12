@@ -1,0 +1,37 @@
+@mixin container {
+    max-width: 1110px;
+    margin: 0 auto;
+} 
+@mixin h2 {
+    font-weight: 700;
+    font-size: 34px;
+    text-transform: uppercase;
+    line-height: 130%;
+
+    @media (max-width: $mobile-large) {
+        font-size: 28px;
+    }
+}
+
+@mixin smallUppercaseTitle {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+@mixin button_order {
+    background: #FFE70D;
+    border-radius: 6px;
+    width: 310px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+}
+
+@mixin button_order_hover {
+    background: #FFFFFF;;
+    color: $main-color;
+}
