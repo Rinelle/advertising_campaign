@@ -4,37 +4,35 @@
     
     <meta charset="UTF-8">
     <title>Блок с формой и картой</title>
-    <link rel="stylesheet" href="css/_map.css">
+    <link rel="stylesheet" href="base/_map.scss">
 </head>
 <body>
 
 <div>
 <main>
     <div class="wrapper">
-    <div id ="s1"><label class="font-weight-bold" 
-      id="s2">   
+    <div class="font-weight-bold">   
 		<div id="inline">
 			<div class="second">
 			<h2>Оставить заявку</h2>
 			<form id="contact" action="#" method="post" name="contact">
-			<div class="qwerty" ><input id="name" class="txt" name="name" type="name" placeholder="Имя"></div>
-			<input id="surname" class="txt" name="surname" type="surname" placeholder="Фамилия">
-			<input id="phone" class="txt" name="phone" type="phone" placeholder="Ваш телефон"> 
-			<input id="email" class="txt" name="email" type="email" placeholder="Ваш e-mail"> 
-			<button class="send">Отправить</button></form></div>
-		</id=>
+            <label><input id="name" class="txt" name="name" type="name" placeholder="Имя"></label>
+            <label><input id="surname" class="txt" name="surname" type="surname" placeholder="Фамилия"></label>
+            <label><input id="phone" class="txt" name="phone" type="phone" placeholder="Ваш телефон"></label>
+            <label><input id="email" class="txt" name="email" type="email" placeholder="Ваш e-mail"></label>
+            <button class="send">Отправить</button></form></div>
       </div>  
     </div>
 </div>
     <aside>          <div class="first">
 		<div class="p-4 mb-3 bg-white">
-		  <p class="mb-0 font-weight-bold">Адрес</p>
+		  <p class="a">Адрес</p>
 		  <p class="mb-4">г. Пермь, ул. Советская 64, 2 этаж.</p>
 
-		  <p class="mb-0 font-weight-bold">Телефон</p>
+		  <p class="a">Телефон</p>
 		  <p class="mb-4"><a href="#"></a>+7 (342) 000 00 00</p>
 
-		  <p class="mb-0 font-weight-bold">Электронная почта</p>
+		  <p class="a">Электронная почта</p>
 		  <p class="mb-4"><a href="#"></a>emall@perm.ru</p>
 
 		</div>
