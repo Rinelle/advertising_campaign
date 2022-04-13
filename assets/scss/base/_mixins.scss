@@ -40,3 +40,12 @@
     line-height: 150%;
     color: $gray-middle;
 }
+
+@mixin dividingLine {
+    content: "";
+    width: 290px;
+    display: block;
+    background-color: #B7B7B7;
+    height: 1px;
+    position: absolute;
+}
