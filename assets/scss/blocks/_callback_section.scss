@@ -50,7 +50,7 @@
     color: $main-color;
 }
 
-.callback-section__title {
+h2 {
     @include h2; 
     color: #FFE70D;
     text-align: center;
@@ -103,9 +103,8 @@
     font-weight: 600;
 }
 
-.callback-section__title {    
-    font-size: 17px;
-    font-weight: 600;
+.callback-section__title { 
+    @include h2;   
     max-width: 329px;
     margin-top: 42px;
 }
@@ -124,3 +123,4 @@
     font-weight: 400;
 }
 }
+
