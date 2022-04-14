@@ -7,6 +7,7 @@
 	font-weight: 700;
 	padding: 12px 30px 10px;
 	border-radius: 5px;
+	text-decoration: none;
 }
 
 .primary-btn1 {
@@ -17,18 +18,20 @@
 	font-weight: 700;
 	padding: 12px 30px 10px;
 	border-radius: 5px;
+	text-decoration: none;
 }
 
 .banner-section {
 	background: url(/assets/images/Glaw_banner.jpg) center no-repeat;
-    background-size: cover;
-	height: 800px;
+    background-size: contain;
+	height: 700px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
+
 }
 
 .hs-text span {
@@ -56,4 +59,9 @@
 .hs-text p {
 	color: #ffffff;
 	margin-bottom: 45px;
+}
+
+.hs-text {
+
+	margin: 100px;
 }
