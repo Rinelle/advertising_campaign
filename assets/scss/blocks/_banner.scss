@@ -1,8 +1,3 @@
-.set-bg {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
-}
 
 .primary-btn {
 	font-size: 16px;
@@ -12,7 +7,6 @@
 	font-weight: 700;
 	padding: 12px 30px 10px;
 	border-radius: 5px;
-
 }
 
 .primary-btn1 {
@@ -26,6 +20,8 @@
 }
 
 .banner-section {
+	background: url(/assets/images/Glaw_banner.jpg) center no-repeat;
+    background-size: cover;
 	height: 800px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -61,4 +57,3 @@
 	color: #ffffff;
 	margin-bottom: 45px;
 }
-
