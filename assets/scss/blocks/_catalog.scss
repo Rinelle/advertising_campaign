@@ -50,9 +50,7 @@
 .card .but-order{
     margin-top: 15px;
     @include button_order;
-}
-.card .but-order:hover{
-    @include button_order_hover;
+    width: 100%;
 }
 
 @media (max-width: $mobile-small)  {

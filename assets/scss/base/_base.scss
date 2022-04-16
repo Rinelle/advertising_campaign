@@ -7,3 +7,20 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+h1 {
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 58px;
+
+    @media (max-width: $mobile-large) {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    @media (max-width: 420px) {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}

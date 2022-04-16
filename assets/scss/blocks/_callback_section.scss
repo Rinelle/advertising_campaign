@@ -15,7 +15,10 @@
         text-align: center;
         max-width: 657px;
         margin-top: 84px;
-    
+
+        @media (max-width: $mobile) {
+            margin-top: 40px;
+        }
     }
 }
 
@@ -42,18 +45,10 @@
 
 }
 
-
 .callback-section__btn {
     width: 100%;
     @include blueButton;
 }
-
-.callback-section__btn:hover {
-    background-color: #FFFFFF;
-    color: $main-color;
-}
-
-
 
 .callback-section__subtitle {
     color: #FFFFFF;

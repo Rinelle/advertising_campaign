@@ -47,11 +47,13 @@
 .header-logo {
     max-width: 323px;
     max-height: 68px;
-    
-    color: $main-color;
-    font-weight: 700;
-    font-size: 46px;
-    line-height: 60px;
+
+    a {
+        color: $main-color;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 60px;
+    }
 }
 .header-group {
     max-width: 655px;
@@ -106,8 +108,9 @@
         padding: 24px 0;
         text-decoration: none; /* Отменяем подчеркивание у ссылки */
         color: white;
+        transition: color .2s ease;
 
-        &__contacts {
+        &:hover {
             color: $yellow-color;
         }
     } 

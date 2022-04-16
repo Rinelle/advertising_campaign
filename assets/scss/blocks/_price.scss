@@ -10,6 +10,10 @@
     padding-top: 80px;
     margin-left: auto;
     margin-right: auto;
+
+    @media (max-width: $mobile) {
+        padding-top: 40px;
+    }
 }
 
 .price-info h2{
@@ -45,10 +49,6 @@
     margin-top: 15px;
     @include button_order;
     width: 100%;
-}
-
-.price-blocks .but-order:hover{
-    @include button_order_hover;
 }
 
 .price-blocks__light-letters, .price-blocks__neon, .price-blocks__plastic{

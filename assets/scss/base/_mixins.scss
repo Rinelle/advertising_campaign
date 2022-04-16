@@ -28,18 +28,22 @@
 @mixin button_order {
     background: #FFE70D;
     border-radius: 6px;
-    width: 310px;
     height: 48px;
     font-weight: 600;
     font-size: 16px;
     border: none;
     text-align: center;
+    color: #000;
+    transition: background-color #{$base-transition}, color #{$base-transition};
+    cursor: pointer;
+
+    &:hover {
+        background: #FFFFFF;
+        color: #000;
+    }
 }
 
-@mixin button_order_hover {
-    background: #FFFFFF;;
-    color: $main-color;
-}
+
 @mixin smallGrayText {
     font-weight: 400;
     font-size: 16px;
@@ -67,7 +71,7 @@
     color: #737373;
 }
 
-@mixin blueButton {
+@mixin blueButton($isHovered: false) {
     background-color: $main-color;
     height: 48px;
     color: #fff;
@@ -77,4 +81,13 @@
     font-size: 16px;
     line-height: 21px;
     font-weight: 600;
+    transition: background-color #{$base-transition}, color #{$base-transition};
+    cursor: pointer;
+
+    @if isHovered == true {
+        &:hover {
+            background-color: $yellow-color;
+            color: #000;
+        }
+    }
 }
