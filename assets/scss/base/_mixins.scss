@@ -36,3 +36,18 @@
     background: #FFFFFF;;
     color: $main-color;
 }
+@mixin smallGrayText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $gray-middle;
+}
+
+@mixin dividingLine {
+    content: "";
+    width: 290px;
+    display: block;
+    background-color: #B7B7B7;
+    height: 1px;
+    position: absolute;
+}
