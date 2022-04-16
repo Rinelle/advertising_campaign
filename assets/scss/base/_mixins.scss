@@ -1,5 +1,5 @@
 @mixin container {
-    max-width: 1110px;
+    max-width: 1150px;
     margin: 0 auto;
     padding: 0 20px;
 } 
@@ -11,6 +11,10 @@
 
     @media (max-width: $mobile-large) {
         font-size: 28px;
+    }
+
+    @media (max-width: $mobile) {
+        font-size: 22px;
     }
 }
 
@@ -50,4 +54,27 @@
     background-color: #B7B7B7;
     height: 1px;
     position: absolute;
+}
+
+@mixin input {
+    height: 48px;
+    border: 1px solid #CECECE;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #737373;
+}
+
+@mixin blueButton {
+    background-color: $main-color;
+    height: 48px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 600;
 }
